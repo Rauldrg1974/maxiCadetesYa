@@ -1,0 +1,62 @@
+* {
+	font-family: "Sen", sans-serif;
+	color: white;
+}
+
+body {
+	background: rgb(39, 39, 39);
+}
+
+b {
+	color: rgb(204, 0, 0);
+}
+
+h1 {
+	display: block;
+}
+
+.encabezado {
+	margin-top:10px;
+	margin-left: 10px;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.nombre {
+	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-right: 30px;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+}
+.comprometidos {
+	
+}
+.prepara {
+	font-size: 19px;
+	color: grey;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+}
+.imgEntrega {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	padding: 15px;
+}
+.entregas {
+	border: 3px solid grey;
+	border-radius: 70px 0px 70px 0px;
+}
+@media (max-width: 635px){
+	.nombre {
+		font-size: 300%;
+		text-align: center;
+	}
+	#logMoto {
+		display: none;
+	}
+}
